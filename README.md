@@ -2,7 +2,9 @@
 Floods games like Quizizz with bots.
 
 ## Supported
-- Quizizz
+- Quizizz (request)
+- Kahoot  (browser)
+- Blooket (request + browser)
 
 ## Images (Showcase)
 ### Quizizz
