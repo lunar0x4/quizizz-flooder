@@ -1,4 +1,5 @@
-const fetch = require('node-fetch');
+// only add if below node.js v18
+//const fetch = require('node-fetch');
 const WebSocket = require('ws');
 const readline = require('readline');
 
