@@ -179,18 +179,7 @@ async function spawnBots(roomCode, botCount) {
     
     const bots = await Promise.all(botPromises);
     
-    console.log(green(`\n[✓] All ${botCount} bots spawned! Running for 60 seconds...\n`));
-    
-    await new Promise(resolve => setTimeout(resolve, 60000));
-    
-    console.log(blue(`\n[*] Disconnecting ${botCount} bots...`));
-    bots.forEach(bot => {
-        clearInterval(bot.pingInterval);
-        bot.ws.close();
-    });
-    
-    console.log(green(`[✓] All bots disconnected\n`));
-    process.exit(0);
+    console.log(green(`\n[✓] All ${botCount} bots spawned!\n`));
 }
 
 console.log(blue(`
