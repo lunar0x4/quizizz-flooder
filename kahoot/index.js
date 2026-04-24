@@ -12,7 +12,7 @@ const BOT_COUNT = 10; // bot count (the more bots, the more cpu & ram used)
 // end of important ig
 
 const funnyNames = [
-    'Hugh Jass', 'Mike Hunt', 'Hugh Janice', 'Hugh G Rection', "Mike Hock", "Jenna Tolls", "Gabe Horn", "Gape Horn", "Jason Forcheese"
+    'Hugh Jass', 'Mike Hunt', 'Hugh Janice', 'Hugh G Rection', "Mike Hock", "Jenna Tolls", "Gabe Horn", "Gape Horn", "Dicken Cider"
 ];
 
 // dont change below unless you know what u doing
